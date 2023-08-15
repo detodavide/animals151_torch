@@ -2,4 +2,4 @@
 
 ## download data from: https://www.kaggle.com/datasets/sharansmenon/animals141
 
-## put the dataset folder in "./data"
+## create folder "data" and put the dataset folder in "./data"
