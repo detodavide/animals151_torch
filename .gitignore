@@ -11,11 +11,12 @@ __pycache__/
 *.so
 
 # Distribution / packaging
+CNN/example_data/
+CNN/data_prep/data_prep_test.ipynb
+CNN/model_prep/model_test.ipynb
+data/
 .Python
 build/
-data/
-data
-data/dataset
 develop-eggs/
 dist/
 downloads/
