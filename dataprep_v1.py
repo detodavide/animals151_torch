@@ -76,8 +76,8 @@ train_idx, val_idx = index_splitter(len(images_dataset), [85, 15])
 train_dataset = Subset(images_dataset, train_idx)
 val_dataset = Subset(images_dataset, val_idx)
 
-train_loader = DataLoader(train_dataset, batch_size=32, shuffle=True)
+train_loader = DataLoader(train_dataset, batch_size=16, shuffle=True)
 
-val_loader = DataLoader(val_dataset, batch_size=32, shuffle=False)
+val_loader = DataLoader(val_dataset, batch_size=16, shuffle=False)
 
 print("Generated train_loader and val_loader")
